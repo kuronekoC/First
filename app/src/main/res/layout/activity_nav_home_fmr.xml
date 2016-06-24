@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@android:color/transparent">
+    <!--container 容器-->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+    </FrameLayout>
+
+    <View
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cdcdcd"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/activity_group_radioGroup"
+        />
+
+    <LinearLayout
+        android:id="@+id/activity_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_f1_select"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/shopping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_f2_select"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_f3_select"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/shopcart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_f4_select"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/me"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_f5_select"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

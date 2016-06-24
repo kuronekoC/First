@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+    android:id="@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_marginTop="2dp"
+    android:layout_height="44dp"
+    android:gravity="center"
+    android:background="@color/half_blue"
+    android:textColor="@color/blue"
+    android:text="待定"/>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:background="@color/half_blue"
+        android:textColor="@color/blue"
+        android:text="待定"/>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:background="@color/half_blue"
+        android:textColor="@color/blue"
+        android:text="待定"/>
+</LinearLayout>
