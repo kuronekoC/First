@@ -44,13 +44,25 @@ public class ListContentActivity extends Activity {
                 break;
             case R.id.t2:
                 /**
-                 * 下拉刷新，上啦
+                 * 下拉刷新，
                  */
                 it.setClass(this,NavHomeVpActivity.class);
                 break;
             case R.id.t3:
                 /**
                  * 分组扩展
+                 */
+                it.setClass(this,NavHomeVpActivity.class);
+                break;
+            case R.id.t4:
+                /**
+                 *各种方向的滑动
+                 */
+                it.setClass(this,NavHomeVpActivity.class);
+                break;
+            case R.id.t5:
+                /**
+                 *TabLayout
                  */
                 it.setClass(this,NavHomeVpActivity.class);
                 break;

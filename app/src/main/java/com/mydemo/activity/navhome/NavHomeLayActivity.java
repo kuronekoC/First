@@ -15,6 +15,7 @@ import com.mydemo.fragment.navhome.TestFragment;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -63,6 +64,7 @@ public class NavHomeLayActivity extends FragmentActivity {
         mMap.setTag(MyApplication.fragment3Tag);
         mShopcart.setTag(MyApplication.fragment4Tag);
         mMe.setTag(MyApplication.fragment5Tag);
+
 
         imgList.add(mHome);
         imgList.add(mShopping);
